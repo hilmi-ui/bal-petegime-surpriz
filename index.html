@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="tr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+    <title>Sana Özel</title>
+    <link href="https://fonts.googleapis.com/css2?family=Dancing+Script:wght@600&family=Cormorant+Garamond:wght@600&family=Indie+Flower&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <div class="envelope-wrapper" id="envelope">
+        <div class="envelope">
+            <div class="flap top"></div>
+            <div class="flap left"></div>
+            <div class="flap right"></div>
+            <div class="pocket"></div>
+        </div>
+        <div class="wax-seal" id="wax-seal"><span>❤</span></div>
+    </div>
+
+    <div class="letter-container" id="letter">
+        <div class="book-content" id="book">
+            
+            <div class="page left-page">
+                <div class="polaroid">
+                    <img src="cover.jpeg" alt="Biz">
+                    <p>En Güzel Anımız ✨</p>
+                </div>
+                
+                <button class="mobile-btn back-btn" id="btn-back">
+                    <i class="fa-solid fa-rotate-left"></i> Nota Dön
+                </button>
+            </div>
+
+            <div class="page right-page">
+                <div class="close-icon">✕</div>
+                
+                <div class="text-scroll">
+                    <h1>Sevgili Bal Peteğim 🍯</h1>
+                    
+                    <p>Kodlar bazen duyguları ifade etmekte yetersiz kalabilir ama ben yine de şansımı denemek istedim.
+                    Umarım bu küçük sürpriz seni mutlu eder ve yüzünde tatlı bir tebessüm oluşturur.</p>
+
+                    <p>Bu mektubum belki dijital olabilir fakat içerisindeki hisler tamamen gerçek.
+                    Seni tanımak, hayatımın en güzel şansı oldu ve her anımız benim için çok değerli.</p>
+
+                    <div class="signature">
+                        <p class="love">Senii çoooook Sevenn,</p>
+                        <p class="name">Üzümlü Kekstran 🍇🧁🧁🥧</p>
+                    </div>
+                </div>
+
+                <button class="mobile-btn next-btn" id="btn-next">
+                    Fotoğrafı Gör <i class="fa-solid fa-arrow-right"></i>
+                </button>
+            </div>
+        </div>
+    </div>
+
+    <div class="overlay"></div>
+
+    <script src="https://cdn.jsdelivr.net/npm/canvas-confetti@1.6.0/dist/confetti.browser.min.js"></script>
+    <script src="script.js"></script>
+</body>
+</html>
